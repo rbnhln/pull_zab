@@ -1,0 +1,10 @@
+# /etc/systemd/system/pull_zab.service
+
+[Unit]
+Description=Runs the Python script to perform zfs-autobackup
+
+[Service]
+ExecStart=/PATH/TO/SCRIPT/pull_zab.py
+
+[Install]
+WantedBy=multi-user.target

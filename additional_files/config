@@ -1,0 +1,4 @@
+Host REMOTESERVER
+  Hostname 127.0.0.1 
+  User USER
+  Port 22

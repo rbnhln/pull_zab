@@ -1,0 +1,11 @@
+# Datei /etc/systemd/system/pull_zab.timer
+
+[Unit]
+Description=Runs the Python script to perform zfs-autobackup
+
+[Timer]
+OnCalendar=*-*-* 05:00:00
+Persistent=true
+
+[Install]
+WantedBy=basic.target
